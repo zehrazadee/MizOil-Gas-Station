@@ -1,0 +1,1692 @@
+2025-08-30 17:12:03,043 - CubeSat - INFO - ============================================================
+2025-08-30 17:12:03,044 - CubeSat - INFO - CUBESAT TELEMETRY SYSTEM - PROFESSIONAL EDITION
+2025-08-30 17:12:03,044 - CubeSat - INFO - ============================================================
+2025-08-30 17:12:03,066 - CubeSat - INFO - Database initialized successfully
+2025-08-30 17:12:03,131 - CubeSat - INFO - HTTP server started on http://127.0.0.1:8080
+2025-08-30 17:12:03,132 - CubeSat - INFO - Also try: http://localhost:8080
+2025-08-30 17:12:03,132 - CubeSat - INFO - Available endpoints:
+2025-08-30 17:12:03,132 - CubeSat - INFO -   http://127.0.0.1:8080/         - Web interface
+2025-08-30 17:12:03,133 - CubeSat - INFO -   http://127.0.0.1:8080/latest   - Latest telemetry data (JSON)
+2025-08-30 17:12:03,133 - CubeSat - INFO -   http://127.0.0.1:8080/health   - System health check
+2025-08-30 17:12:03,133 - CubeSat - INFO -   http://127.0.0.1:8080/status   - System status
+2025-08-30 17:12:03,136 - CubeSat - INFO - Starting CubeSat Telemetry System
+2025-08-30 17:12:03,137 - CubeSat - INFO - Starting dht22 thread
+2025-08-30 17:12:03,138 - CubeSat - INFO - Starting bmp180 thread
+2025-08-30 17:12:03,139 - CubeSat - INFO - Starting lsm303 thread
+2025-08-30 17:12:03,140 - CubeSat - INFO - Starting mpu6050 thread
+2025-08-30 17:12:03,141 - CubeSat - INFO - Starting gps thread
+2025-08-30 17:12:03,142 - CubeSat - INFO - Starting data processor thread
+2025-08-30 17:12:03,142 - CubeSat - INFO - All subsystems started successfully
+2025-08-30 17:12:03,142 - CubeSat - INFO - System Status:
+2025-08-30 17:12:03,143 - CubeSat - INFO -    • Database: SQLite
+2025-08-30 17:12:03,143 - CubeSat - INFO -    • Sensors: 5 active (DHT22, BMP180, LSM303, MPU6050, GPS)
+2025-08-30 17:12:03,143 - CubeSat - INFO -    • API Server: http://localhost:8080
+2025-08-30 17:12:03,144 - CubeSat - INFO -    • Data Collection: Every 5 seconds
+2025-08-30 17:12:03,144 - CubeSat - INFO - ============================================================
+2025-08-30 17:12:03,443 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:04,449 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:04,952 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:05,255 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:05,659 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:08,160 - CubeSat - INFO - Successfully inserted sequence 1
+2025-08-30 17:12:08,161 - CubeSat - INFO - Telemetry packet #1 sent with 27 fields
+2025-08-30 17:12:10,424 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:11,933 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:13,149 - CubeSat - INFO - Active fields: 30, Sequence: #2
+2025-08-30 17:12:13,185 - CubeSat - INFO - Successfully inserted sequence 2
+2025-08-30 17:12:13,186 - CubeSat - INFO - Telemetry packet #2 sent with 27 fields
+2025-08-30 17:12:13,877 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:14,789 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:14,889 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:15,293 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:15,395 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:16,503 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:17,511 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:18,233 - CubeSat - INFO - Successfully inserted sequence 3
+2025-08-30 17:12:18,233 - CubeSat - INFO - Telemetry packet #3 sent with 27 fields
+2025-08-30 17:12:18,522 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:18,823 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:18,925 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:19,632 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:21,746 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:23,159 - CubeSat - INFO - Active fields: 30, Sequence: #4
+2025-08-30 17:12:23,277 - CubeSat - INFO - Successfully inserted sequence 4
+2025-08-30 17:12:23,277 - CubeSat - INFO - Telemetry packet #4 sent with 27 fields
+2025-08-30 17:12:24,166 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:24,674 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:25,383 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:25,487 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:25,786 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:26,492 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:26,995 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:27,397 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:27,902 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:28,320 - CubeSat - INFO - Successfully inserted sequence 5
+2025-08-30 17:12:28,321 - CubeSat - INFO - Telemetry packet #5 sent with 27 fields
+2025-08-30 17:12:28,606 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:28,909 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:29,011 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:29,165 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:12:29,526 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:30,249 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:31,358 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:31,766 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:31,968 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:32,874 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:33,165 - CubeSat - INFO - Active fields: 30, Sequence: #6
+2025-08-30 17:12:33,385 - CubeSat - INFO - Successfully inserted sequence 6
+2025-08-30 17:12:33,386 - CubeSat - INFO - Telemetry packet #6 sent with 27 fields
+2025-08-30 17:12:34,987 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:37,305 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:38,427 - CubeSat - INFO - Successfully inserted sequence 7
+2025-08-30 17:12:38,428 - CubeSat - INFO - Telemetry packet #7 sent with 27 fields
+2025-08-30 17:12:38,514 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:39,827 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:41,336 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:42,845 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:43,171 - CubeSat - INFO - Active fields: 30, Sequence: #8
+2025-08-30 17:12:43,459 - CubeSat - INFO - Successfully inserted sequence 8
+2025-08-30 17:12:43,459 - CubeSat - INFO - Telemetry packet #8 sent with 27 fields
+2025-08-30 17:12:44,153 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:44,858 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:46,069 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:46,273 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:46,875 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:47,984 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:48,403 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:48,516 - CubeSat - INFO - Successfully inserted sequence 9
+2025-08-30 17:12:48,517 - CubeSat - INFO - Telemetry packet #9 sent with 27 fields
+2025-08-30 17:12:49,007 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:49,511 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:52,200 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:12:53,045 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:53,176 - CubeSat - INFO - Active fields: 30, Sequence: #10
+2025-08-30 17:12:53,560 - CubeSat - INFO - Successfully inserted sequence 10
+2025-08-30 17:12:53,561 - CubeSat - INFO - Telemetry packet #10 sent with 27 fields
+2025-08-30 17:12:54,152 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:54,859 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:12:56,079 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:57,309 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:12:58,626 - CubeSat - INFO - Successfully inserted sequence 11
+2025-08-30 17:12:58,627 - CubeSat - INFO - Telemetry packet #11 sent with 27 fields
+2025-08-30 17:13:00,642 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:00,826 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:01,854 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:02,540 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:03,183 - CubeSat - INFO - Active fields: 30, Sequence: #12
+2025-08-30 17:13:03,660 - CubeSat - INFO - Successfully inserted sequence 12
+2025-08-30 17:13:03,661 - CubeSat - INFO - Telemetry packet #12 sent with 27 fields
+2025-08-30 17:13:03,970 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:04,855 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:05,160 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:13:07,376 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:08,704 - CubeSat - INFO - Successfully inserted sequence 13
+2025-08-30 17:13:08,704 - CubeSat - INFO - Telemetry packet #13 sent with 27 fields
+2025-08-30 17:13:09,216 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:13:09,421 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:11,408 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:11,638 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:12,114 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:13,149 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:13,188 - CubeSat - INFO - Active fields: 30, Sequence: #14
+2025-08-30 17:13:13,742 - CubeSat - INFO - Successfully inserted sequence 14
+2025-08-30 17:13:13,742 - CubeSat - INFO - Telemetry packet #14 sent with 27 fields
+2025-08-30 17:13:14,836 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:15,540 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:15,742 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:18,059 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:18,591 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:18,778 - CubeSat - INFO - Successfully inserted sequence 15
+2025-08-30 17:13:18,779 - CubeSat - INFO - Telemetry packet #15 sent with 27 fields
+2025-08-30 17:13:19,468 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:20,304 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:20,578 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:20,780 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:21,312 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:21,686 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:21,989 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:22,091 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:22,506 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:23,193 - CubeSat - INFO - Active fields: 30, Sequence: #16
+2025-08-30 17:13:23,212 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:23,832 - CubeSat - INFO - Successfully inserted sequence 16
+2025-08-30 17:13:23,833 - CubeSat - INFO - Telemetry packet #16 sent with 27 fields
+2025-08-30 17:13:24,118 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:25,025 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:26,649 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:27,039 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:27,140 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:27,442 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:28,865 - CubeSat - INFO - Successfully inserted sequence 17
+2025-08-30 17:13:28,866 - CubeSat - INFO - Telemetry packet #17 sent with 27 fields
+2025-08-30 17:13:28,965 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:29,166 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:29,771 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:30,268 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:30,671 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:31,788 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:31,980 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:32,082 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:32,695 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:33,089 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:33,198 - CubeSat - INFO - Active fields: 30, Sequence: #18
+2025-08-30 17:13:33,392 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:33,905 - CubeSat - INFO - Successfully inserted sequence 18
+2025-08-30 17:13:33,905 - CubeSat - INFO - Telemetry packet #18 sent with 27 fields
+2025-08-30 17:13:37,553 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:38,943 - CubeSat - INFO - Successfully inserted sequence 19
+2025-08-30 17:13:38,943 - CubeSat - INFO - Telemetry packet #19 sent with 27 fields
+2025-08-30 17:13:39,175 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:13:39,776 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:41,952 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:43,204 - CubeSat - INFO - Active fields: 30, Sequence: #20
+2025-08-30 17:13:43,966 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:44,133 - CubeSat - INFO - Successfully inserted sequence 20
+2025-08-30 17:13:44,133 - CubeSat - INFO - Telemetry packet #20 sent with 27 fields
+2025-08-30 17:13:44,919 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:45,277 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:45,524 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:46,229 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:47,294 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:48,549 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:49,168 - CubeSat - INFO - Successfully inserted sequence 21
+2025-08-30 17:13:49,169 - CubeSat - INFO - Telemetry packet #21 sent with 27 fields
+2025-08-30 17:13:49,179 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:13:50,765 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:50,968 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:13:53,211 - CubeSat - INFO - Active fields: 30, Sequence: #22
+2025-08-30 17:13:54,204 - CubeSat - INFO - Successfully inserted sequence 22
+2025-08-30 17:13:54,206 - CubeSat - INFO - Telemetry packet #22 sent with 27 fields
+2025-08-30 17:13:56,055 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:57,259 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:13:57,367 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:58,073 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:13:59,241 - CubeSat - INFO - Successfully inserted sequence 23
+2025-08-30 17:13:59,242 - CubeSat - INFO - Telemetry packet #23 sent with 27 fields
+2025-08-30 17:13:59,326 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:00,198 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:14:00,291 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:00,795 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:01,185 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:14:01,348 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:01,801 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:01,902 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:03,217 - CubeSat - INFO - Active fields: 30, Sequence: #24
+2025-08-30 17:14:03,217 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:03,923 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:04,278 - CubeSat - INFO - Successfully inserted sequence 24
+2025-08-30 17:14:04,281 - CubeSat - INFO - Telemetry packet #24 sent with 27 fields
+2025-08-30 17:14:04,830 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:05,235 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:05,944 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:06,146 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:08,114 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:08,669 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:09,337 - CubeSat - INFO - Successfully inserted sequence 25
+2025-08-30 17:14:09,338 - CubeSat - INFO - Telemetry packet #25 sent with 27 fields
+2025-08-30 17:14:11,289 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:11,340 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:13,223 - CubeSat - INFO - Active fields: 30, Sequence: #26
+2025-08-30 17:14:14,372 - CubeSat - INFO - Successfully inserted sequence 26
+2025-08-30 17:14:14,375 - CubeSat - INFO - Telemetry packet #26 sent with 27 fields
+2025-08-30 17:14:14,816 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:15,670 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:15,772 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:16,679 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:17,384 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:18,237 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:18,338 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:19,244 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:19,413 - CubeSat - INFO - Successfully inserted sequence 27
+2025-08-30 17:14:19,414 - CubeSat - INFO - Telemetry packet #27 sent with 27 fields
+2025-08-30 17:14:19,445 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:19,749 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:20,654 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:21,461 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:21,912 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:23,019 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:23,228 - CubeSat - INFO - Active fields: 30, Sequence: #28
+2025-08-30 17:14:23,275 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:24,460 - CubeSat - INFO - Successfully inserted sequence 28
+2025-08-30 17:14:24,461 - CubeSat - INFO - Telemetry packet #28 sent with 27 fields
+2025-08-30 17:14:25,236 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:25,279 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:14:25,709 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:14:25,945 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:26,350 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:26,653 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:27,560 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:29,119 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:29,171 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:29,473 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:29,537 - CubeSat - INFO - Successfully inserted sequence 29
+2025-08-30 17:14:29,539 - CubeSat - INFO - Telemetry packet #29 sent with 27 fields
+2025-08-30 17:14:29,674 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:30,581 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:30,631 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:31,989 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:33,233 - CubeSat - INFO - Active fields: 30, Sequence: #30
+2025-08-30 17:14:34,204 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:34,572 - CubeSat - INFO - Successfully inserted sequence 30
+2025-08-30 17:14:34,573 - CubeSat - INFO - Telemetry packet #30 sent with 27 fields
+2025-08-30 17:14:38,544 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:39,097 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:39,616 - CubeSat - INFO - Successfully inserted sequence 31
+2025-08-30 17:14:39,617 - CubeSat - INFO - Telemetry packet #31 sent with 27 fields
+2025-08-30 17:14:41,419 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:42,179 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:43,189 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:43,238 - CubeSat - INFO - Active fields: 30, Sequence: #32
+2025-08-30 17:14:43,291 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:14:43,837 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:43,896 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:44,300 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:44,341 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:44,656 - CubeSat - INFO - Successfully inserted sequence 32
+2025-08-30 17:14:44,658 - CubeSat - INFO - Telemetry packet #32 sent with 27 fields
+2025-08-30 17:14:44,704 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:44,743 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:46,316 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:49,696 - CubeSat - INFO - Successfully inserted sequence 33
+2025-08-30 17:14:49,697 - CubeSat - INFO - Telemetry packet #33 sent with 27 fields
+2025-08-30 17:14:51,048 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:51,760 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:53,205 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:14:53,244 - CubeSat - INFO - Active fields: 30, Sequence: #34
+2025-08-30 17:14:53,471 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:53,599 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:53,874 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:54,176 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:54,609 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:54,721 - CubeSat - INFO - Successfully inserted sequence 34
+2025-08-30 17:14:54,722 - CubeSat - INFO - Telemetry packet #34 sent with 27 fields
+2025-08-30 17:14:56,928 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:58,640 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:58,843 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:14:59,312 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:14:59,763 - CubeSat - INFO - Successfully inserted sequence 35
+2025-08-30 17:14:59,763 - CubeSat - INFO - Telemetry packet #35 sent with 27 fields
+2025-08-30 17:15:00,721 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:01,055 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:01,125 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:01,723 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:15:02,266 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:03,249 - CubeSat - INFO - Active fields: 30, Sequence: #36
+2025-08-30 17:15:03,678 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:04,797 - CubeSat - INFO - Successfully inserted sequence 36
+2025-08-30 17:15:04,798 - CubeSat - INFO - Telemetry packet #36 sent with 27 fields
+2025-08-30 17:15:08,167 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:08,716 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:09,861 - CubeSat - INFO - Successfully inserted sequence 37
+2025-08-30 17:15:09,867 - CubeSat - INFO - Telemetry packet #37 sent with 27 fields
+2025-08-30 17:15:10,482 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:10,585 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:11,154 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:11,496 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:13,254 - CubeSat - INFO - Active fields: 30, Sequence: #38
+2025-08-30 17:15:14,677 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:14,890 - CubeSat - INFO - Successfully inserted sequence 38
+2025-08-30 17:15:14,891 - CubeSat - INFO - Telemetry packet #38 sent with 27 fields
+2025-08-30 17:15:15,782 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:16,639 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:17,348 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:17,966 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:19,005 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:19,209 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:19,929 - CubeSat - INFO - Successfully inserted sequence 39
+2025-08-30 17:15:19,930 - CubeSat - INFO - Telemetry packet #39 sent with 27 fields
+2025-08-30 17:15:21,523 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:21,597 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:22,331 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:23,211 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:23,258 - CubeSat - INFO - Active fields: 30, Sequence: #40
+2025-08-30 17:15:24,318 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:24,645 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:24,962 - CubeSat - INFO - Successfully inserted sequence 40
+2025-08-30 17:15:24,962 - CubeSat - INFO - Telemetry packet #40 sent with 27 fields
+2025-08-30 17:15:25,653 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:25,855 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:26,035 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:26,137 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:28,556 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:29,692 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:29,773 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:30,017 - CubeSat - INFO - Successfully inserted sequence 41
+2025-08-30 17:15:30,018 - CubeSat - INFO - Telemetry packet #41 sent with 27 fields
+2025-08-30 17:15:30,606 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:32,115 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:32,215 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:32,217 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:33,263 - CubeSat - INFO - Active fields: 30, Sequence: #42
+2025-08-30 17:15:33,835 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:34,642 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:35,059 - CubeSat - INFO - Successfully inserted sequence 42
+2025-08-30 17:15:35,059 - CubeSat - INFO - Telemetry packet #42 sent with 27 fields
+2025-08-30 17:15:37,333 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:15:39,182 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:40,113 - CubeSat - INFO - Successfully inserted sequence 43
+2025-08-30 17:15:40,115 - CubeSat - INFO - Telemetry packet #43 sent with 27 fields
+2025-08-30 17:15:40,709 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:42,031 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:43,269 - CubeSat - INFO - Active fields: 30, Sequence: #44
+2025-08-30 17:15:44,231 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:45,148 - CubeSat - INFO - Successfully inserted sequence 44
+2025-08-30 17:15:45,153 - CubeSat - INFO - Telemetry packet #44 sent with 27 fields
+2025-08-30 17:15:46,490 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:47,154 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:47,195 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:48,072 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:48,274 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:48,778 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:49,753 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:15:49,917 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:50,206 - CubeSat - INFO - Successfully inserted sequence 45
+2025-08-30 17:15:50,207 - CubeSat - INFO - Telemetry packet #45 sent with 27 fields
+2025-08-30 17:15:51,916 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:52,321 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:53,276 - CubeSat - INFO - Active fields: 30, Sequence: #46
+2025-08-30 17:15:54,335 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:54,839 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:55,242 - CubeSat - INFO - Successfully inserted sequence 46
+2025-08-30 17:15:55,244 - CubeSat - INFO - Telemetry packet #46 sent with 27 fields
+2025-08-30 17:15:55,345 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:15:56,650 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:56,954 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:57,975 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:58,077 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:59,073 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:15:59,185 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:15:59,797 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:00,275 - CubeSat - INFO - Successfully inserted sequence 47
+2025-08-30 17:16:00,275 - CubeSat - INFO - Telemetry packet #47 sent with 27 fields
+2025-08-30 17:16:00,284 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:02,614 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:03,286 - CubeSat - INFO - Active fields: 30, Sequence: #48
+2025-08-30 17:16:04,228 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:04,837 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:05,368 - CubeSat - INFO - Successfully inserted sequence 48
+2025-08-30 17:16:05,368 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:05,369 - CubeSat - INFO - Telemetry packet #48 sent with 27 fields
+2025-08-30 17:16:07,260 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:08,597 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:08,699 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:10,177 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:10,397 - CubeSat - INFO - Successfully inserted sequence 49
+2025-08-30 17:16:10,400 - CubeSat - INFO - Telemetry packet #49 sent with 27 fields
+2025-08-30 17:16:10,517 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:11,023 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:11,502 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:12,106 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:12,710 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:13,292 - CubeSat - INFO - Active fields: 30, Sequence: #50
+2025-08-30 17:16:13,354 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:13,417 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:13,922 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:14,425 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:15,336 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:15,449 - CubeSat - INFO - Successfully inserted sequence 50
+2025-08-30 17:16:15,450 - CubeSat - INFO - Telemetry packet #50 sent with 27 fields
+2025-08-30 17:16:15,537 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:18,094 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:18,157 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:19,368 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:20,496 - CubeSat - INFO - Successfully inserted sequence 51
+2025-08-30 17:16:20,497 - CubeSat - INFO - Telemetry packet #51 sent with 27 fields
+2025-08-30 17:16:21,422 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:21,821 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 17:16:21,826 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 17:16:21,996 - CubeSat - INFO - HTTP GET request: /favicon.ico
+2025-08-30 17:16:21,997 - CubeSat - INFO - HTTP "GET /favicon.ico HTTP/1.1" 404 -
+2025-08-30 17:16:23,296 - CubeSat - INFO - Active fields: 30, Sequence: #52
+2025-08-30 17:16:23,705 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:25,362 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:25,530 - CubeSat - INFO - Successfully inserted sequence 52
+2025-08-30 17:16:25,531 - CubeSat - INFO - Telemetry packet #52 sent with 27 fields
+2025-08-30 17:16:25,619 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:28,086 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:28,994 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:30,620 - CubeSat - INFO - Successfully inserted sequence 53
+2025-08-30 17:16:30,629 - CubeSat - INFO - Telemetry packet #53 sent with 27 fields
+2025-08-30 17:16:33,033 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:33,306 - CubeSat - INFO - Active fields: 30, Sequence: #54
+2025-08-30 17:16:35,677 - CubeSat - INFO - Successfully inserted sequence 54
+2025-08-30 17:16:35,678 - CubeSat - INFO - Telemetry packet #54 sent with 27 fields
+2025-08-30 17:16:37,378 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:37,680 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:38,687 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:40,713 - CubeSat - INFO - Successfully inserted sequence 55
+2025-08-30 17:16:40,714 - CubeSat - INFO - Telemetry packet #55 sent with 27 fields
+2025-08-30 17:16:41,582 - CubeSat - INFO - HTTP GET request: /latest
+2025-08-30 17:16:41,586 - CubeSat - INFO - HTTP "GET /latest HTTP/1.1" 200 -
+2025-08-30 17:16:42,008 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:43,244 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:16:43,309 - CubeSat - INFO - Active fields: 30, Sequence: #56
+2025-08-30 17:16:45,037 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:45,755 - CubeSat - INFO - Successfully inserted sequence 56
+2025-08-30 17:16:45,756 - CubeSat - INFO - Telemetry packet #56 sent with 27 fields
+2025-08-30 17:16:46,747 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:48,158 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:49,369 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:49,400 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:16:50,797 - CubeSat - INFO - Successfully inserted sequence 57
+2025-08-30 17:16:50,798 - CubeSat - INFO - Telemetry packet #57 sent with 27 fields
+2025-08-30 17:16:53,317 - CubeSat - INFO - Active fields: 30, Sequence: #58
+2025-08-30 17:16:53,409 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:55,830 - CubeSat - INFO - Successfully inserted sequence 58
+2025-08-30 17:16:55,831 - CubeSat - INFO - Telemetry packet #58 sent with 27 fields
+2025-08-30 17:16:57,333 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:57,635 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:16:57,735 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:16:59,749 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:00,854 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:00,874 - CubeSat - INFO - Successfully inserted sequence 59
+2025-08-30 17:17:00,875 - CubeSat - INFO - Telemetry packet #59 sent with 27 fields
+2025-08-30 17:17:01,057 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:01,359 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:02,668 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:03,271 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:03,330 - CubeSat - INFO - Active fields: 30, Sequence: #60
+2025-08-30 17:17:03,414 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:17:04,481 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:05,186 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:05,492 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:05,594 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:05,905 - CubeSat - INFO - Successfully inserted sequence 60
+2025-08-30 17:17:05,908 - CubeSat - INFO - Telemetry packet #60 sent with 27 fields
+2025-08-30 17:17:07,313 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:07,917 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:09,533 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:09,619 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:10,728 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:10,942 - CubeSat - INFO - Successfully inserted sequence 61
+2025-08-30 17:17:10,942 - CubeSat - INFO - Telemetry packet #61 sent with 27 fields
+2025-08-30 17:17:11,633 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:11,959 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:13,333 - CubeSat - INFO - Active fields: 30, Sequence: #62
+2025-08-30 17:17:13,570 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:13,874 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:15,269 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:15,371 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:15,674 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:15,995 - CubeSat - INFO - Successfully inserted sequence 62
+2025-08-30 17:17:15,996 - CubeSat - INFO - Telemetry packet #62 sent with 27 fields
+2025-08-30 17:17:16,402 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:16,505 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:17,818 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:18,429 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:17:19,026 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:19,258 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:17:21,036 - CubeSat - INFO - Successfully inserted sequence 63
+2025-08-30 17:17:21,037 - CubeSat - INFO - Telemetry packet #63 sent with 27 fields
+2025-08-30 17:17:21,120 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:21,728 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:22,144 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:22,999 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:23,340 - CubeSat - INFO - Active fields: 30, Sequence: #64
+2025-08-30 17:17:26,085 - CubeSat - INFO - Successfully inserted sequence 64
+2025-08-30 17:17:26,086 - CubeSat - INFO - Telemetry packet #64 sent with 27 fields
+2025-08-30 17:17:26,743 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:26,779 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:27,441 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:17:27,756 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:27,888 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:29,415 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:29,686 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:30,498 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:31,115 - CubeSat - INFO - Successfully inserted sequence 65
+2025-08-30 17:17:31,116 - CubeSat - INFO - Telemetry packet #65 sent with 27 fields
+2025-08-30 17:17:31,530 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:31,935 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:32,338 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:32,741 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:33,021 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:33,298 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:17:33,346 - CubeSat - INFO - Active fields: 30, Sequence: #66
+2025-08-30 17:17:33,424 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:36,158 - CubeSat - INFO - Successfully inserted sequence 66
+2025-08-30 17:17:36,160 - CubeSat - INFO - Telemetry packet #66 sent with 27 fields
+2025-08-30 17:17:36,952 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:38,662 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:39,269 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:40,818 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:17:41,205 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:41,243 - CubeSat - INFO - Successfully inserted sequence 67
+2025-08-30 17:17:41,243 - CubeSat - INFO - Telemetry packet #67 sent with 27 fields
+2025-08-30 17:17:41,510 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:43,322 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:43,355 - CubeSat - INFO - Active fields: 30, Sequence: #68
+2025-08-30 17:17:43,423 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:43,624 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:43,831 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:44,556 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:45,271 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:17:45,320 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:17:45,366 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:46,278 - CubeSat - INFO - Successfully inserted sequence 68
+2025-08-30 17:17:46,278 - CubeSat - INFO - Telemetry packet #68 sent with 27 fields
+2025-08-30 17:17:46,573 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:46,666 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:47,377 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:49,117 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:49,823 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:50,126 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:50,328 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:50,630 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:51,275 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:17:51,351 - CubeSat - INFO - Successfully inserted sequence 69
+2025-08-30 17:17:51,351 - CubeSat - INFO - Telemetry packet #69 sent with 27 fields
+2025-08-30 17:17:52,273 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:52,478 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:52,805 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:53,109 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:53,232 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:53,362 - CubeSat - INFO - Active fields: 30, Sequence: #70
+2025-08-30 17:17:53,615 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:56,380 - CubeSat - INFO - Successfully inserted sequence 70
+2025-08-30 17:17:56,387 - CubeSat - INFO - Telemetry packet #70 sent with 27 fields
+2025-08-30 17:17:57,373 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:57,472 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:17:57,475 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:57,476 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:59,191 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:17:59,196 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:59,298 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:17:59,503 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:00,000 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:00,712 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:01,440 - CubeSat - INFO - Successfully inserted sequence 71
+2025-08-30 17:18:01,442 - CubeSat - INFO - Telemetry packet #71 sent with 27 fields
+2025-08-30 17:18:02,329 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:03,371 - CubeSat - INFO - Active fields: 30, Sequence: #72
+2025-08-30 17:18:05,369 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:05,484 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:18:05,571 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:06,486 - CubeSat - INFO - Successfully inserted sequence 72
+2025-08-30 17:18:06,489 - CubeSat - INFO - Telemetry packet #72 sent with 27 fields
+2025-08-30 17:18:06,586 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:07,378 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:08,492 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:18:08,611 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:08,813 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:09,367 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:18:09,720 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:09,721 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:11,516 - CubeSat - INFO - Successfully inserted sequence 73
+2025-08-30 17:18:11,518 - CubeSat - INFO - Telemetry packet #73 sent with 27 fields
+2025-08-30 17:18:12,654 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:13,377 - CubeSat - INFO - Active fields: 30, Sequence: #74
+2025-08-30 17:18:15,296 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:18:15,783 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:16,600 - CubeSat - INFO - Successfully inserted sequence 74
+2025-08-30 17:18:16,601 - CubeSat - INFO - Telemetry packet #74 sent with 27 fields
+2025-08-30 17:18:17,795 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:19,411 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:19,714 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:21,649 - CubeSat - INFO - Successfully inserted sequence 75
+2025-08-30 17:18:21,649 - CubeSat - INFO - Telemetry packet #75 sent with 27 fields
+2025-08-30 17:18:22,554 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:22,759 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:23,389 - CubeSat - INFO - Active fields: 30, Sequence: #76
+2025-08-30 17:18:24,294 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:24,295 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:24,399 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:24,600 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:26,731 - CubeSat - INFO - Successfully inserted sequence 76
+2025-08-30 17:18:26,734 - CubeSat - INFO - Telemetry packet #76 sent with 27 fields
+2025-08-30 17:18:27,427 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:28,237 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:29,041 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:29,142 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:30,269 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:31,365 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:31,786 - CubeSat - INFO - Successfully inserted sequence 77
+2025-08-30 17:18:31,787 - CubeSat - INFO - Telemetry packet #77 sent with 27 fields
+2025-08-30 17:18:33,285 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:33,400 - CubeSat - INFO - Active fields: 30, Sequence: #78
+2025-08-30 17:18:33,589 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:34,093 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:34,345 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:34,950 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:35,755 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:36,852 - CubeSat - INFO - Successfully inserted sequence 78
+2025-08-30 17:18:36,852 - CubeSat - INFO - Telemetry packet #78 sent with 27 fields
+2025-08-30 17:18:36,934 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:39,060 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:39,097 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:40,522 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:18:41,315 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:41,908 - CubeSat - INFO - Successfully inserted sequence 79
+2025-08-30 17:18:41,909 - CubeSat - INFO - Telemetry packet #79 sent with 27 fields
+2025-08-30 17:18:43,405 - CubeSat - INFO - Active fields: 30, Sequence: #80
+2025-08-30 17:18:44,068 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:45,023 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:46,038 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:46,929 - CubeSat - INFO - Successfully inserted sequence 80
+2025-08-30 17:18:46,930 - CubeSat - INFO - Telemetry packet #80 sent with 27 fields
+2025-08-30 17:18:47,531 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:18:49,090 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:49,754 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:50,667 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:51,107 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:51,412 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:51,996 - CubeSat - INFO - Successfully inserted sequence 81
+2025-08-30 17:18:51,997 - CubeSat - INFO - Telemetry packet #81 sent with 27 fields
+2025-08-30 17:18:53,387 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:53,413 - CubeSat - INFO - Active fields: 30, Sequence: #82
+2025-08-30 17:18:53,489 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:53,892 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:53,930 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:54,403 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:18:55,538 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:18:56,713 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:56,851 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:18:57,026 - CubeSat - INFO - Successfully inserted sequence 82
+2025-08-30 17:18:57,027 - CubeSat - INFO - Telemetry packet #82 sent with 27 fields
+2025-08-30 17:18:58,732 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:58,834 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:18:59,037 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:01,061 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:02,088 - CubeSat - INFO - Successfully inserted sequence 83
+2025-08-30 17:19:02,088 - CubeSat - INFO - Telemetry packet #83 sent with 27 fields
+2025-08-30 17:19:03,284 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:03,423 - CubeSat - INFO - Active fields: 30, Sequence: #84
+2025-08-30 17:19:03,845 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:04,655 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:04,756 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:06,510 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:07,133 - CubeSat - INFO - Successfully inserted sequence 84
+2025-08-30 17:19:07,136 - CubeSat - INFO - Telemetry packet #84 sent with 27 fields
+2025-08-30 17:19:07,786 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:09,400 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:09,439 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:10,245 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:10,308 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:10,511 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:11,353 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:11,419 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:12,178 - CubeSat - INFO - Successfully inserted sequence 85
+2025-08-30 17:19:12,180 - CubeSat - INFO - Telemetry packet #85 sent with 27 fields
+2025-08-30 17:19:12,225 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:12,529 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:13,136 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:13,429 - CubeSat - INFO - Active fields: 30, Sequence: #86
+2025-08-30 17:19:14,575 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:14,747 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:15,180 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:15,767 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:17,213 - CubeSat - INFO - Successfully inserted sequence 86
+2025-08-30 17:19:17,215 - CubeSat - INFO - Telemetry packet #86 sent with 27 fields
+2025-08-30 17:19:18,209 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:18,423 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:19:19,829 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:22,247 - CubeSat - INFO - Successfully inserted sequence 87
+2025-08-30 17:19:22,249 - CubeSat - INFO - Telemetry packet #87 sent with 27 fields
+2025-08-30 17:19:23,338 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:19:23,435 - CubeSat - INFO - Active fields: 30, Sequence: #88
+2025-08-30 17:19:24,566 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:19:24,773 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:25,484 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:26,391 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:27,196 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:27,310 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:27,311 - CubeSat - INFO - Successfully inserted sequence 88
+2025-08-30 17:19:27,312 - CubeSat - INFO - Telemetry packet #88 sent with 27 fields
+2025-08-30 17:19:28,019 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:28,105 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:28,120 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:29,319 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:29,933 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:31,543 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:32,376 - CubeSat - INFO - Successfully inserted sequence 89
+2025-08-30 17:19:32,377 - CubeSat - INFO - Telemetry packet #89 sent with 27 fields
+2025-08-30 17:19:32,659 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:32,966 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:33,441 - CubeSat - INFO - Active fields: 30, Sequence: #90
+2025-08-30 17:19:34,679 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:35,285 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:37,417 - CubeSat - INFO - Successfully inserted sequence 90
+2025-08-30 17:19:37,417 - CubeSat - INFO - Telemetry packet #90 sent with 27 fields
+2025-08-30 17:19:38,304 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:39,523 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:40,116 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:40,743 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:41,155 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:41,658 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:41,959 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:42,464 - CubeSat - INFO - Successfully inserted sequence 91
+2025-08-30 17:19:42,467 - CubeSat - INFO - Telemetry packet #91 sent with 27 fields
+2025-08-30 17:19:42,567 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:42,587 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:19:43,449 - CubeSat - INFO - Active fields: 30, Sequence: #92
+2025-08-30 17:19:43,473 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:43,947 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:19:45,190 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:45,448 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:19:47,204 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:47,509 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:47,527 - CubeSat - INFO - Successfully inserted sequence 92
+2025-08-30 17:19:47,528 - CubeSat - INFO - Telemetry packet #92 sent with 27 fields
+2025-08-30 17:19:50,240 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:50,250 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:52,575 - CubeSat - INFO - Successfully inserted sequence 93
+2025-08-30 17:19:52,577 - CubeSat - INFO - Telemetry packet #93 sent with 27 fields
+2025-08-30 17:19:53,280 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:53,460 - CubeSat - INFO - Active fields: 30, Sequence: #94
+2025-08-30 17:19:55,301 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:19:57,005 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:19:57,624 - CubeSat - INFO - Successfully inserted sequence 94
+2025-08-30 17:19:57,630 - CubeSat - INFO - Telemetry packet #94 sent with 27 fields
+2025-08-30 17:19:58,861 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:01,695 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:01,797 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:02,682 - CubeSat - INFO - Successfully inserted sequence 95
+2025-08-30 17:20:02,683 - CubeSat - INFO - Telemetry packet #95 sent with 27 fields
+2025-08-30 17:20:03,466 - CubeSat - INFO - Active fields: 30, Sequence: #96
+2025-08-30 17:20:03,917 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:05,128 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:05,330 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:05,532 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:05,694 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:06,438 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:06,539 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:06,705 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:07,744 - CubeSat - INFO - Successfully inserted sequence 96
+2025-08-30 17:20:07,744 - CubeSat - INFO - Telemetry packet #96 sent with 27 fields
+2025-08-30 17:20:08,023 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:09,471 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:12,098 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:12,788 - CubeSat - INFO - Successfully inserted sequence 97
+2025-08-30 17:20:12,789 - CubeSat - INFO - Telemetry packet #97 sent with 27 fields
+2025-08-30 17:20:13,471 - CubeSat - INFO - Active fields: 30, Sequence: #98
+2025-08-30 17:20:14,282 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:15,096 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:15,344 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:17,459 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:17,843 - CubeSat - INFO - Successfully inserted sequence 98
+2025-08-30 17:20:17,844 - CubeSat - INFO - Telemetry packet #98 sent with 27 fields
+2025-08-30 17:20:18,567 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:19,643 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:20,451 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:21,260 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:22,887 - CubeSat - INFO - Successfully inserted sequence 99
+2025-08-30 17:20:22,888 - CubeSat - INFO - Telemetry packet #99 sent with 27 fields
+2025-08-30 17:20:23,209 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:23,476 - CubeSat - INFO - Active fields: 30, Sequence: #100
+2025-08-30 17:20:24,119 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:24,894 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:25,835 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:26,003 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:26,239 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:20:27,814 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:27,915 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:20:27,956 - CubeSat - INFO - 
+Shutdown requested by user
+2025-08-30 17:20:27,957 - CubeSat - INFO - Shutdown complete
+2025-08-30 17:56:34,271 - CubeSat - INFO - ============================================================
+2025-08-30 17:56:34,272 - CubeSat - INFO - CUBESAT TELEMETRY SYSTEM - PROFESSIONAL EDITION
+2025-08-30 17:56:34,273 - CubeSat - INFO - ============================================================
+2025-08-30 17:56:34,284 - CubeSat - INFO - Database initialized successfully
+2025-08-30 17:56:34,307 - CubeSat - INFO - HTTP server started on http://127.0.0.1:8080
+2025-08-30 17:56:34,308 - CubeSat - INFO - Also try: http://localhost:8080
+2025-08-30 17:56:34,308 - CubeSat - INFO - Available endpoints:
+2025-08-30 17:56:34,309 - CubeSat - INFO -   http://127.0.0.1:8080/         - Web interface
+2025-08-30 17:56:34,309 - CubeSat - INFO -   http://127.0.0.1:8080/latest   - Latest telemetry data (JSON)
+2025-08-30 17:56:34,309 - CubeSat - INFO -   http://127.0.0.1:8080/health   - System health check
+2025-08-30 17:56:34,310 - CubeSat - INFO -   http://127.0.0.1:8080/status   - System status
+2025-08-30 17:56:34,312 - CubeSat - INFO - Starting CubeSat Telemetry System
+2025-08-30 17:56:34,313 - CubeSat - INFO - Starting dht22 thread
+2025-08-30 17:56:34,314 - CubeSat - INFO - Starting bmp180 thread
+2025-08-30 17:56:34,315 - CubeSat - INFO - Starting lsm303 thread
+2025-08-30 17:56:34,316 - CubeSat - INFO - Starting mpu6050 thread
+2025-08-30 17:56:34,316 - CubeSat - INFO - Starting gps thread
+2025-08-30 17:56:34,317 - CubeSat - INFO - Starting data processor thread
+2025-08-30 17:56:34,317 - CubeSat - INFO - All subsystems started successfully
+2025-08-30 17:56:34,318 - CubeSat - INFO - System Status:
+2025-08-30 17:56:34,319 - CubeSat - INFO -    • Database: SQLite
+2025-08-30 17:56:34,319 - CubeSat - INFO -    • Sensors: 5 active (DHT22, BMP180, LSM303, MPU6050, GPS)
+2025-08-30 17:56:34,319 - CubeSat - INFO -    • API Server: http://localhost:8080
+2025-08-30 17:56:34,320 - CubeSat - INFO -    • Data Collection: Every 5 seconds
+2025-08-30 17:56:34,320 - CubeSat - INFO - ============================================================
+2025-08-30 17:56:36,638 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:38,466 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:39,325 - CubeSat - INFO - Sequence 1 already exists, skipping
+2025-08-30 17:56:39,326 - CubeSat - INFO - Telemetry packet #1 sent with 27 fields
+2025-08-30 17:56:40,319 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:56:40,999 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:41,597 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:42,617 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:43,627 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:43,682 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 17:56:43,685 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 17:56:44,323 - CubeSat - INFO - Active fields: 30, Sequence: #2
+2025-08-30 17:56:44,333 - CubeSat - INFO - Sequence 2 already exists, skipping
+2025-08-30 17:56:44,333 - CubeSat - INFO - Telemetry packet #2 sent with 27 fields
+2025-08-30 17:56:45,243 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:45,325 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:56:46,856 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:47,160 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:48,872 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:49,378 - CubeSat - INFO - Sequence 3 already exists, skipping
+2025-08-30 17:56:49,385 - CubeSat - INFO - Telemetry packet #3 sent with 27 fields
+2025-08-30 17:56:50,289 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:51,191 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:52,923 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:54,328 - CubeSat - INFO - Active fields: 30, Sequence: #4
+2025-08-30 17:56:54,339 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:54,444 - CubeSat - INFO - Sequence 4 already exists, skipping
+2025-08-30 17:56:54,444 - CubeSat - INFO - Telemetry packet #4 sent with 27 fields
+2025-08-30 17:56:54,850 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:55,457 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:56,321 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:56:56,672 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:57,379 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:56:58,203 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:56:59,521 - CubeSat - INFO - Sequence 5 already exists, skipping
+2025-08-30 17:56:59,521 - CubeSat - INFO - Telemetry packet #5 sent with 27 fields
+2025-08-30 17:56:59,619 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:00,637 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:00,838 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:01,142 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:02,864 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:03,572 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:04,178 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:04,332 - CubeSat - INFO - Active fields: 30, Sequence: #6
+2025-08-30 17:57:04,350 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:57:04,584 - CubeSat - INFO - Sequence 6 already exists, skipping
+2025-08-30 17:57:04,585 - CubeSat - INFO - Telemetry packet #6 sent with 27 fields
+2025-08-30 17:57:04,784 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:06,803 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:06,808 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:07,320 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:07,621 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:08,329 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:09,238 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:09,645 - CubeSat - INFO - Sequence 7 already exists, skipping
+2025-08-30 17:57:09,651 - CubeSat - INFO - Telemetry packet #7 sent with 27 fields
+2025-08-30 17:57:10,352 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:10,957 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:11,360 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:14,091 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:14,091 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:14,338 - CubeSat - INFO - Active fields: 30, Sequence: #8
+2025-08-30 17:57:14,703 - CubeSat - INFO - Sequence 8 already exists, skipping
+2025-08-30 17:57:14,704 - CubeSat - INFO - Telemetry packet #8 sent with 27 fields
+2025-08-30 17:57:16,623 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:17,026 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:19,760 - CubeSat - INFO - Sequence 9 already exists, skipping
+2025-08-30 17:57:19,767 - CubeSat - INFO - Telemetry packet #9 sent with 27 fields
+2025-08-30 17:57:22,388 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:22,587 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:23,806 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:23,906 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:24,342 - CubeSat - INFO - Active fields: 30, Sequence: #10
+2025-08-30 17:57:24,820 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:24,824 - CubeSat - INFO - Sequence 10 already exists, skipping
+2025-08-30 17:57:24,824 - CubeSat - INFO - Telemetry packet #10 sent with 27 fields
+2025-08-30 17:57:25,533 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:26,340 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:26,843 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:28,339 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:57:28,660 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:29,172 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:29,374 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:29,864 - CubeSat - INFO - Sequence 11 already exists, skipping
+2025-08-30 17:57:29,869 - CubeSat - INFO - Telemetry packet #11 sent with 27 fields
+2025-08-30 17:57:30,342 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:57:32,919 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:33,725 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:34,028 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:34,351 - CubeSat - INFO - Active fields: 30, Sequence: #12
+2025-08-30 17:57:34,650 - CubeSat - INFO - HTTP GET request: /latest
+2025-08-30 17:57:34,653 - CubeSat - INFO - HTTP "GET /latest HTTP/1.1" 200 -
+2025-08-30 17:57:34,656 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 17:57:34,662 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 17:57:34,667 - CubeSat - ERROR - GET request error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-08-30 17:57:34,710 - CubeSat - ERROR - Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\About Python\NovaOne CubeSatalite\Main.py", line 535, in do_GET
+    self.send_html_response(200, html_content)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ASUS\Desktop\About Python\NovaOne CubeSatalite\Main.py", line 659, in send_html_response
+    self.wfile.write(html_content.encode('utf-8'))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+2025-08-30 17:57:34,712 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 500 -
+2025-08-30 17:57:34,727 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 17:57:34,731 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 17:57:34,841 - CubeSat - INFO - HTTP GET request: /favicon.ico
+2025-08-30 17:57:34,844 - CubeSat - INFO - HTTP "GET /favicon.ico HTTP/1.1" 404 -
+2025-08-30 17:57:34,941 - CubeSat - INFO - Sequence 12 already exists, skipping
+2025-08-30 17:57:34,959 - CubeSat - INFO - Telemetry packet #12 sent with 27 fields
+2025-08-30 17:57:35,039 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:36,354 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:37,472 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:37,986 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:39,588 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:39,995 - CubeSat - INFO - Sequence 13 already exists, skipping
+2025-08-30 17:57:39,996 - CubeSat - INFO - Telemetry packet #13 sent with 27 fields
+2025-08-30 17:57:41,836 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:41,911 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:42,038 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:42,316 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:43,652 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:43,934 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:43,958 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:44,036 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:44,341 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:44,354 - CubeSat - INFO - Active fields: 30, Sequence: #14
+2025-08-30 17:57:45,052 - CubeSat - INFO - Sequence 14 already exists, skipping
+2025-08-30 17:57:45,054 - CubeSat - INFO - Telemetry packet #14 sent with 27 fields
+2025-08-30 17:57:45,858 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:46,162 - CubeSat - INFO - HTTP GET request: /health
+2025-08-30 17:57:46,163 - CubeSat - INFO - HTTP "GET /health HTTP/1.1" 200 -
+2025-08-30 17:57:47,697 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:48,111 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:48,402 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:57:48,687 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:48,821 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:49,232 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:49,901 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:50,106 - CubeSat - INFO - Sequence 15 already exists, skipping
+2025-08-30 17:57:50,107 - CubeSat - INFO - Telemetry packet #15 sent with 27 fields
+2025-08-30 17:57:50,203 - CubeSat - INFO - HTTP GET request: /status
+2025-08-30 17:57:50,206 - CubeSat - INFO - HTTP "GET /status HTTP/1.1" 200 -
+2025-08-30 17:57:51,016 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:51,408 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:57:53,753 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:54,357 - CubeSat - INFO - Active fields: 30, Sequence: #16
+2025-08-30 17:57:54,391 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:54,419 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:57:55,173 - CubeSat - INFO - Sequence 16 already exists, skipping
+2025-08-30 17:57:55,174 - CubeSat - INFO - Telemetry packet #16 sent with 27 fields
+2025-08-30 17:57:55,304 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:56,220 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:57,038 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:57:57,591 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:58,701 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:57:59,003 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:00,230 - CubeSat - INFO - Sequence 17 already exists, skipping
+2025-08-30 17:58:00,231 - CubeSat - INFO - Telemetry packet #17 sent with 27 fields
+2025-08-30 17:58:01,386 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:01,954 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:02,093 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:02,257 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:02,661 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:03,873 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:04,178 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:04,367 - CubeSat - INFO - Active fields: 30, Sequence: #18
+2025-08-30 17:58:04,386 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:04,690 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:05,299 - CubeSat - INFO - Sequence 18 already exists, skipping
+2025-08-30 17:58:05,300 - CubeSat - INFO - Telemetry packet #18 sent with 27 fields
+2025-08-30 17:58:05,622 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:06,327 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:07,016 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:07,235 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:07,382 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:58:07,825 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:07,946 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:10,359 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:10,372 - CubeSat - INFO - Sequence 19 already exists, skipping
+2025-08-30 17:58:10,373 - CubeSat - INFO - Telemetry packet #19 sent with 27 fields
+2025-08-30 17:58:10,768 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:12,438 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:58:12,589 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:13,198 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:14,371 - CubeSat - INFO - Active fields: 30, Sequence: #20
+2025-08-30 17:58:15,420 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:15,423 - CubeSat - INFO - Sequence 20 already exists, skipping
+2025-08-30 17:58:15,423 - CubeSat - INFO - Telemetry packet #20 sent with 27 fields
+2025-08-30 17:58:15,623 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:16,542 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:16,643 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:17,248 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:17,537 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:18,761 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:19,449 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:58:20,377 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:20,458 - CubeSat - INFO - Sequence 21 already exists, skipping
+2025-08-30 17:58:20,461 - CubeSat - INFO - Telemetry packet #21 sent with 27 fields
+2025-08-30 17:58:22,598 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:22,599 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:24,375 - CubeSat - INFO - Active fields: 30, Sequence: #22
+2025-08-30 17:58:25,321 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 17:58:25,323 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 17:58:25,537 - CubeSat - INFO - Sequence 22 already exists, skipping
+2025-08-30 17:58:25,539 - CubeSat - INFO - Telemetry packet #22 sent with 27 fields
+2025-08-30 17:58:26,043 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:26,550 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:26,652 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:29,174 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:29,586 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:30,403 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:30,604 - CubeSat - INFO - Sequence 23 already exists, skipping
+2025-08-30 17:58:30,605 - CubeSat - INFO - Telemetry packet #23 sent with 27 fields
+2025-08-30 17:58:31,107 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:31,314 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:33,237 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:33,640 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:34,381 - CubeSat - INFO - Active fields: 30, Sequence: #24
+2025-08-30 17:58:34,541 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:35,655 - CubeSat - INFO - Sequence 24 already exists, skipping
+2025-08-30 17:58:35,658 - CubeSat - INFO - Telemetry packet #24 sent with 27 fields
+2025-08-30 17:58:36,473 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:38,389 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:39,065 - CubeSat - INFO - HTTP GET request: /latest
+2025-08-30 17:58:39,068 - CubeSat - INFO - HTTP "GET /latest HTTP/1.1" 200 -
+2025-08-30 17:58:40,205 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:40,411 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:58:40,602 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:40,713 - CubeSat - INFO - Sequence 25 already exists, skipping
+2025-08-30 17:58:40,723 - CubeSat - INFO - Telemetry packet #25 sent with 27 fields
+2025-08-30 17:58:41,015 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:41,111 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:42,422 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:42,538 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:42,727 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:43,448 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:43,753 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:43,854 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:44,060 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:44,385 - CubeSat - INFO - Active fields: 30, Sequence: #26
+2025-08-30 17:58:44,391 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:58:45,764 - CubeSat - INFO - Sequence 26 already exists, skipping
+2025-08-30 17:58:45,766 - CubeSat - INFO - Telemetry packet #26 sent with 27 fields
+2025-08-30 17:58:46,164 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:46,482 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:46,669 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:48,688 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:49,296 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:49,498 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:58:50,813 - CubeSat - INFO - Sequence 27 already exists, skipping
+2025-08-30 17:58:50,814 - CubeSat - INFO - Telemetry packet #27 sent with 27 fields
+2025-08-30 17:58:51,332 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:53,053 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:53,134 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:58:54,394 - CubeSat - INFO - Active fields: 30, Sequence: #28
+2025-08-30 17:58:55,378 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:55,884 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:58:55,886 - CubeSat - INFO - Sequence 28 already exists, skipping
+2025-08-30 17:58:55,896 - CubeSat - INFO - Telemetry packet #28 sent with 27 fields
+2025-08-30 17:58:57,201 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:00,738 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:00,939 - CubeSat - INFO - Sequence 29 already exists, skipping
+2025-08-30 17:59:00,943 - CubeSat - INFO - Telemetry packet #29 sent with 27 fields
+2025-08-30 17:59:01,746 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:02,655 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:04,398 - CubeSat - INFO - Active fields: 30, Sequence: #30
+2025-08-30 17:59:05,997 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:06,000 - CubeSat - INFO - Sequence 30 already exists, skipping
+2025-08-30 17:59:06,000 - CubeSat - INFO - Telemetry packet #30 sent with 27 fields
+2025-08-30 17:59:06,100 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:07,007 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:08,628 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:09,837 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:10,343 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:10,951 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:11,055 - CubeSat - INFO - Sequence 31 already exists, skipping
+2025-08-30 17:59:11,058 - CubeSat - INFO - Telemetry packet #31 sent with 27 fields
+2025-08-30 17:59:12,469 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:14,401 - CubeSat - INFO - Active fields: 30, Sequence: #32
+2025-08-30 17:59:15,298 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:16,110 - CubeSat - INFO - Sequence 32 already exists, skipping
+2025-08-30 17:59:16,110 - CubeSat - INFO - Telemetry packet #32 sent with 27 fields
+2025-08-30 17:59:16,414 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:17,533 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:59:20,157 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:20,359 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:20,945 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:59:21,170 - CubeSat - INFO - Sequence 33 already exists, skipping
+2025-08-30 17:59:21,171 - CubeSat - INFO - Telemetry packet #33 sent with 27 fields
+2025-08-30 17:59:21,773 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:23,299 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:24,112 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:24,406 - CubeSat - INFO - Active fields: 30, Sequence: #34
+2025-08-30 17:59:24,417 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:25,220 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:26,238 - CubeSat - INFO - Sequence 34 already exists, skipping
+2025-08-30 17:59:26,242 - CubeSat - INFO - Telemetry packet #34 sent with 27 fields
+2025-08-30 17:59:27,648 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:27,751 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:29,168 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:31,294 - CubeSat - INFO - Sequence 35 already exists, skipping
+2025-08-30 17:59:31,295 - CubeSat - INFO - Telemetry packet #35 sent with 27 fields
+2025-08-30 17:59:31,393 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:31,903 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:33,725 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:34,410 - CubeSat - INFO - Active fields: 30, Sequence: #36
+2025-08-30 17:59:34,553 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:35,554 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:59:35,668 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:36,361 - CubeSat - INFO - Sequence 36 already exists, skipping
+2025-08-30 17:59:36,365 - CubeSat - INFO - Telemetry packet #36 sent with 27 fields
+2025-08-30 17:59:37,798 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:37,872 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:38,424 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 17:59:39,486 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:40,459 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:59:40,603 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:41,415 - CubeSat - INFO - Sequence 37 already exists, skipping
+2025-08-30 17:59:41,416 - CubeSat - INFO - Telemetry packet #37 sent with 27 fields
+2025-08-30 17:59:41,563 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:59:41,961 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:59:44,414 - CubeSat - INFO - Active fields: 30, Sequence: #38
+2025-08-30 17:59:44,963 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 17:59:45,657 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:46,430 - CubeSat - INFO - Sequence 38 already exists, skipping
+2025-08-30 17:59:46,430 - CubeSat - INFO - Telemetry packet #38 sent with 27 fields
+2025-08-30 17:59:46,568 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 17:59:47,713 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:49,394 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:50,406 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:50,647 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:51,465 - CubeSat - INFO - Sequence 39 already exists, skipping
+2025-08-30 17:59:51,468 - CubeSat - INFO - Telemetry packet #39 sent with 27 fields
+2025-08-30 17:59:51,966 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:52,475 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:53,541 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:53,789 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:54,420 - CubeSat - INFO - Active fields: 30, Sequence: #40
+2025-08-30 17:59:55,001 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:56,115 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:56,418 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:56,482 - CubeSat - INFO - Sequence 40 already exists, skipping
+2025-08-30 17:59:56,483 - CubeSat - INFO - Telemetry packet #40 sent with 27 fields
+2025-08-30 17:59:57,387 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:57,936 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 17:59:58,102 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 17:59:59,974 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 18:00:00,325 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:01,542 - CubeSat - INFO - Sequence 41 already exists, skipping
+2025-08-30 18:00:01,543 - CubeSat - INFO - Telemetry packet #41 sent with 27 fields
+2025-08-30 18:00:02,451 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:02,593 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:00:04,424 - CubeSat - INFO - Active fields: 30, Sequence: #42
+2025-08-30 18:00:04,976 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:06,550 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:06,598 - CubeSat - INFO - Sequence 42 already exists, skipping
+2025-08-30 18:00:06,599 - CubeSat - INFO - Telemetry packet #42 sent with 27 fields
+2025-08-30 18:00:07,001 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:07,462 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:07,612 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:07,714 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:09,436 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:11,606 - CubeSat - INFO - Sequence 43 already exists, skipping
+2025-08-30 18:00:11,607 - CubeSat - INFO - Telemetry packet #43 sent with 27 fields
+2025-08-30 18:00:11,615 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:12,606 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:00:12,727 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:12,882 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:13,793 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:14,099 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:14,428 - CubeSat - INFO - Active fields: 30, Sequence: #44
+2025-08-30 18:00:15,764 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:16,613 - CubeSat - INFO - Sequence 44 already exists, skipping
+2025-08-30 18:00:16,614 - CubeSat - INFO - Telemetry packet #44 sent with 27 fields
+2025-08-30 18:00:16,778 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:17,183 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:17,385 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:18,110 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:18,138 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:18,414 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:18,516 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:19,454 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:19,860 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:20,063 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:20,164 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:20,547 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:21,077 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:21,623 - CubeSat - INFO - Sequence 45 already exists, skipping
+2025-08-30 18:00:21,624 - CubeSat - INFO - Telemetry packet #45 sent with 27 fields
+2025-08-30 18:00:22,373 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:22,778 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:24,431 - CubeSat - INFO - Active fields: 30, Sequence: #46
+2025-08-30 18:00:24,597 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:24,901 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:25,311 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:25,614 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:26,631 - CubeSat - INFO - Sequence 46 already exists, skipping
+2025-08-30 18:00:26,632 - CubeSat - INFO - Telemetry packet #46 sent with 27 fields
+2025-08-30 18:00:26,932 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:27,844 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:29,060 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:29,060 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:29,162 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:29,566 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:30,882 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:31,692 - CubeSat - INFO - Sequence 47 already exists, skipping
+2025-08-30 18:00:31,693 - CubeSat - INFO - Telemetry packet #47 sent with 27 fields
+2025-08-30 18:00:32,294 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:33,316 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:34,435 - CubeSat - INFO - Active fields: 30, Sequence: #48
+2025-08-30 18:00:36,378 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:36,784 - CubeSat - INFO - Sequence 48 already exists, skipping
+2025-08-30 18:00:36,785 - CubeSat - INFO - Telemetry packet #48 sent with 27 fields
+2025-08-30 18:00:37,389 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:37,591 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:39,406 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:39,634 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:00:39,911 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:40,319 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:41,639 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:00:41,839 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:41,844 - CubeSat - INFO - Sequence 49 already exists, skipping
+2025-08-30 18:00:41,845 - CubeSat - INFO - Telemetry packet #49 sent with 27 fields
+2025-08-30 18:00:42,246 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:42,756 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:43,507 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 18:00:43,642 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:00:44,441 - CubeSat - INFO - Active fields: 30, Sequence: #50
+2025-08-30 18:00:45,175 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:46,894 - CubeSat - INFO - Sequence 50 already exists, skipping
+2025-08-30 18:00:46,896 - CubeSat - INFO - Telemetry packet #50 sent with 27 fields
+2025-08-30 18:00:47,598 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:51,951 - CubeSat - INFO - Sequence 51 already exists, skipping
+2025-08-30 18:00:51,961 - CubeSat - INFO - Telemetry packet #51 sent with 27 fields
+2025-08-30 18:00:54,446 - CubeSat - INFO - Active fields: 30, Sequence: #52
+2025-08-30 18:00:57,010 - CubeSat - INFO - Sequence 52 already exists, skipping
+2025-08-30 18:00:57,011 - CubeSat - INFO - Telemetry packet #52 sent with 27 fields
+2025-08-30 18:00:57,014 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 18:00:57,612 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:57,916 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:58,020 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:58,122 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:00:58,134 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:58,339 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:59,651 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:00:59,941 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:01,567 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:02,078 - CubeSat - INFO - Sequence 53 already exists, skipping
+2025-08-30 18:01:02,079 - CubeSat - INFO - Telemetry packet #53 sent with 27 fields
+2025-08-30 18:01:02,473 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 18:01:04,213 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:04,452 - CubeSat - INFO - Active fields: 30, Sequence: #54
+2025-08-30 18:01:04,475 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 18:01:05,009 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:05,314 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:06,029 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 18:01:06,035 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:06,140 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:06,540 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:07,151 - CubeSat - INFO - Sequence 54 already exists, skipping
+2025-08-30 18:01:07,153 - CubeSat - INFO - Telemetry packet #54 sent with 27 fields
+2025-08-30 18:01:07,456 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:09,575 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:10,083 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:10,189 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:10,797 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:11,304 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:12,213 - CubeSat - INFO - Sequence 55 already exists, skipping
+2025-08-30 18:01:12,216 - CubeSat - INFO - Telemetry packet #55 sent with 27 fields
+2025-08-30 18:01:13,725 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:14,457 - CubeSat - INFO - Active fields: 30, Sequence: #56
+2025-08-30 18:01:14,637 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:15,544 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:16,049 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:16,353 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:16,480 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 18:01:16,959 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:17,263 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:17,267 - CubeSat - INFO - Sequence 56 already exists, skipping
+2025-08-30 18:01:17,269 - CubeSat - INFO - Telemetry packet #56 sent with 27 fields
+2025-08-30 18:01:17,874 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:18,172 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:18,477 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:18,480 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:19,542 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 18:01:20,297 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:21,817 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:22,327 - CubeSat - INFO - Sequence 57 already exists, skipping
+2025-08-30 18:01:22,329 - CubeSat - INFO - Telemetry packet #57 sent with 27 fields
+2025-08-30 18:01:24,460 - CubeSat - INFO - Active fields: 30, Sequence: #58
+2025-08-30 18:01:24,948 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:26,462 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:27,272 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:27,375 - CubeSat - INFO - Sequence 58 already exists, skipping
+2025-08-30 18:01:27,385 - CubeSat - INFO - Telemetry packet #58 sent with 27 fields
+2025-08-30 18:01:27,477 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:30,061 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 18:01:30,826 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:32,443 - CubeSat - INFO - Sequence 59 already exists, skipping
+2025-08-30 18:01:32,445 - CubeSat - INFO - Telemetry packet #59 sent with 27 fields
+2025-08-30 18:01:32,848 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:33,157 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:34,466 - CubeSat - INFO - Active fields: 30, Sequence: #60
+2025-08-30 18:01:35,185 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:35,597 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:36,720 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:36,824 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:37,511 - CubeSat - INFO - Sequence 60 already exists, skipping
+2025-08-30 18:01:37,512 - CubeSat - INFO - Telemetry packet #60 sent with 27 fields
+2025-08-30 18:01:38,012 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:38,495 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 18:01:38,619 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:38,923 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:39,554 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:40,646 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:42,577 - CubeSat - INFO - Sequence 61 already exists, skipping
+2025-08-30 18:01:42,578 - CubeSat - INFO - Telemetry packet #61 sent with 27 fields
+2025-08-30 18:01:42,677 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:42,715 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:01:44,473 - CubeSat - INFO - Active fields: 30, Sequence: #62
+2025-08-30 18:01:44,501 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:46,511 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:46,714 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:47,628 - CubeSat - INFO - Sequence 62 already exists, skipping
+2025-08-30 18:01:47,631 - CubeSat - INFO - Telemetry packet #62 sent with 27 fields
+2025-08-30 18:01:47,829 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:48,237 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:50,267 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:50,575 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:51,081 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:51,278 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:52,696 - CubeSat - INFO - Sequence 63 already exists, skipping
+2025-08-30 18:01:52,698 - CubeSat - INFO - Telemetry packet #63 sent with 27 fields
+2025-08-30 18:01:53,095 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:53,806 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:54,415 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:54,476 - CubeSat - INFO - Active fields: 30, Sequence: #64
+2025-08-30 18:01:54,822 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 18:01:55,524 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:01:57,733 - CubeSat - INFO - Sequence 64 already exists, skipping
+2025-08-30 18:01:57,735 - CubeSat - INFO - Telemetry packet #64 sent with 27 fields
+2025-08-30 18:02:00,733 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 18:02:00,787 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:02:00,989 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:02:01,494 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 18:02:01,877 - CubeSat - INFO - 
+Shutdown requested by user
+2025-08-30 18:02:01,878 - CubeSat - INFO - Shutdown complete
+2025-08-30 22:43:20,217 - CubeSat - INFO - ============================================================
+2025-08-30 22:43:20,218 - CubeSat - INFO - CUBESAT TELEMETRY SYSTEM - PROFESSIONAL EDITION
+2025-08-30 22:43:20,218 - CubeSat - INFO - ============================================================
+2025-08-30 22:43:20,226 - CubeSat - INFO - Database initialized successfully
+2025-08-30 22:43:20,299 - CubeSat - INFO - HTTP server started on http://127.0.0.1:8080
+2025-08-30 22:43:20,300 - CubeSat - INFO - Also try: http://localhost:8080
+2025-08-30 22:43:20,300 - CubeSat - INFO - Available endpoints:
+2025-08-30 22:43:20,300 - CubeSat - INFO -   http://127.0.0.1:8080/         - Web interface
+2025-08-30 22:43:20,301 - CubeSat - INFO -   http://127.0.0.1:8080/latest   - Latest telemetry data (JSON)
+2025-08-30 22:43:20,301 - CubeSat - INFO -   http://127.0.0.1:8080/health   - System health check
+2025-08-30 22:43:20,302 - CubeSat - INFO -   http://127.0.0.1:8080/status   - System status
+2025-08-30 22:43:20,305 - CubeSat - INFO - Starting CubeSat Telemetry System
+2025-08-30 22:43:20,306 - CubeSat - INFO - Starting dht22 thread
+2025-08-30 22:43:20,308 - CubeSat - INFO - Starting bmp180 thread
+2025-08-30 22:43:20,309 - CubeSat - INFO - Starting lsm303 thread
+2025-08-30 22:43:20,310 - CubeSat - INFO - Starting mpu6050 thread
+2025-08-30 22:43:20,311 - CubeSat - INFO - Starting gps thread
+2025-08-30 22:43:20,312 - CubeSat - INFO - Starting data processor thread
+2025-08-30 22:43:20,313 - CubeSat - INFO - All subsystems started successfully
+2025-08-30 22:43:20,313 - CubeSat - INFO - System Status:
+2025-08-30 22:43:20,314 - CubeSat - INFO -    • Database: SQLite
+2025-08-30 22:43:20,314 - CubeSat - INFO -    • Sensors: 5 active (DHT22, BMP180, LSM303, MPU6050, GPS)
+2025-08-30 22:43:20,314 - CubeSat - INFO -    • API Server: http://localhost:8080
+2025-08-30 22:43:20,315 - CubeSat - INFO -    • Data Collection: Every 5 seconds
+2025-08-30 22:43:20,315 - CubeSat - INFO - ============================================================
+2025-08-30 22:43:22,120 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:23,328 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:25,327 - CubeSat - INFO - Sequence 1 already exists, skipping
+2025-08-30 22:43:25,327 - CubeSat - INFO - Telemetry packet #1 sent with 27 fields
+2025-08-30 22:43:25,743 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:28,056 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:28,458 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:28,559 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:30,318 - CubeSat - INFO - Active fields: 30, Sequence: #2
+2025-08-30 22:43:30,375 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:30,377 - CubeSat - INFO - Sequence 2 already exists, skipping
+2025-08-30 22:43:30,378 - CubeSat - INFO - Telemetry packet #2 sent with 27 fields
+2025-08-30 22:43:30,578 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:30,579 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:31,082 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:31,484 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:31,485 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:32,319 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:43:33,321 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:43:34,322 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:43:35,410 - CubeSat - INFO - Sequence 3 already exists, skipping
+2025-08-30 22:43:35,410 - CubeSat - INFO - Telemetry packet #3 sent with 27 fields
+2025-08-30 22:43:39,032 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:39,330 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:39,334 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:39,938 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:40,320 - CubeSat - INFO - Active fields: 30, Sequence: #4
+2025-08-30 22:43:40,439 - CubeSat - INFO - Sequence 4 already exists, skipping
+2025-08-30 22:43:40,440 - CubeSat - INFO - Telemetry packet #4 sent with 27 fields
+2025-08-30 22:43:40,539 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:41,247 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:42,820 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:43:42,958 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:43,150 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 22:43:43,153 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 22:43:43,230 - CubeSat - INFO - HTTP GET request: /favicon.ico
+2025-08-30 22:43:43,231 - CubeSat - INFO - HTTP "GET /favicon.ico HTTP/1.1" 404 -
+2025-08-30 22:43:43,562 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:44,320 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:43:44,469 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:44,976 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:45,476 - CubeSat - INFO - Sequence 5 already exists, skipping
+2025-08-30 22:43:45,478 - CubeSat - INFO - Telemetry packet #5 sent with 27 fields
+2025-08-30 22:43:46,079 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:46,688 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:48,100 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:49,010 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:49,112 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:50,317 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:50,324 - CubeSat - INFO - Active fields: 30, Sequence: #6
+2025-08-30 22:43:50,334 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:43:50,521 - CubeSat - INFO - Sequence 6 already exists, skipping
+2025-08-30 22:43:50,522 - CubeSat - INFO - Telemetry packet #6 sent with 27 fields
+2025-08-30 22:43:50,825 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:52,334 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:52,641 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:52,944 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:52,947 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:53,558 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:55,375 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:55,580 - CubeSat - INFO - Sequence 7 already exists, skipping
+2025-08-30 22:43:55,581 - CubeSat - INFO - Telemetry packet #7 sent with 27 fields
+2025-08-30 22:43:56,186 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:43:56,189 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:56,329 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:43:58,309 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:59,119 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:43:59,525 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:00,230 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:00,327 - CubeSat - INFO - Active fields: 30, Sequence: #8
+2025-08-30 22:44:00,327 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 22:44:00,634 - CubeSat - INFO - Sequence 8 already exists, skipping
+2025-08-30 22:44:00,637 - CubeSat - INFO - Telemetry packet #8 sent with 27 fields
+2025-08-30 22:44:00,735 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:01,640 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:04,059 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:04,466 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:05,684 - CubeSat - INFO - Sequence 9 already exists, skipping
+2025-08-30 22:44:05,687 - CubeSat - INFO - Telemetry packet #9 sent with 27 fields
+2025-08-30 22:44:06,184 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:10,108 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:10,331 - CubeSat - INFO - Active fields: 30, Sequence: #10
+2025-08-30 22:44:10,716 - CubeSat - INFO - Sequence 10 already exists, skipping
+2025-08-30 22:44:10,718 - CubeSat - INFO - Telemetry packet #10 sent with 27 fields
+2025-08-30 22:44:10,919 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:11,219 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:12,443 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:12,543 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:12,546 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:12,843 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:44:15,769 - CubeSat - INFO - Sequence 11 already exists, skipping
+2025-08-30 22:44:15,771 - CubeSat - INFO - Telemetry packet #11 sent with 27 fields
+2025-08-30 22:44:16,336 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 22:44:18,799 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:20,334 - CubeSat - INFO - Active fields: 30, Sequence: #12
+2025-08-30 22:44:20,708 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:20,814 - CubeSat - INFO - Sequence 12 already exists, skipping
+2025-08-30 22:44:20,815 - CubeSat - INFO - Telemetry packet #12 sent with 27 fields
+2025-08-30 22:44:21,418 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:22,338 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 22:44:24,149 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:24,687 - CubeSat - INFO - HTTP GET request: /latest
+2025-08-30 22:44:24,690 - CubeSat - INFO - HTTP "GET /latest HTTP/1.1" 200 -
+2025-08-30 22:44:25,364 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:44:25,757 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:25,860 - CubeSat - INFO - Sequence 13 already exists, skipping
+2025-08-30 22:44:25,861 - CubeSat - INFO - Telemetry packet #13 sent with 27 fields
+2025-08-30 22:44:26,348 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:44:27,067 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:27,167 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:27,771 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:29,200 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:30,008 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:30,336 - CubeSat - INFO - Active fields: 30, Sequence: #14
+2025-08-30 22:44:30,916 - CubeSat - INFO - Sequence 14 already exists, skipping
+2025-08-30 22:44:30,917 - CubeSat - INFO - Telemetry packet #14 sent with 27 fields
+2025-08-30 22:44:31,819 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:34,447 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:35,255 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:35,965 - CubeSat - INFO - Sequence 15 already exists, skipping
+2025-08-30 22:44:35,969 - CubeSat - INFO - Telemetry packet #15 sent with 27 fields
+2025-08-30 22:44:36,853 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:44:37,480 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:39,401 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:39,855 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:44:40,340 - CubeSat - INFO - Active fields: 30, Sequence: #16
+2025-08-30 22:44:40,910 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:41,014 - CubeSat - INFO - Sequence 16 already exists, skipping
+2025-08-30 22:44:41,016 - CubeSat - INFO - Telemetry packet #16 sent with 27 fields
+2025-08-30 22:44:41,385 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:44:41,415 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:43,431 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:45,048 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:45,444 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:45,451 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:45,753 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:45,947 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:46,050 - CubeSat - INFO - Sequence 17 already exists, skipping
+2025-08-30 22:44:46,051 - CubeSat - INFO - Telemetry packet #17 sent with 27 fields
+2025-08-30 22:44:46,256 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:47,866 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:48,170 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:48,775 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:48,868 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:50,343 - CubeSat - INFO - Active fields: 30, Sequence: #18
+2025-08-30 22:44:50,708 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:50,810 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:51,088 - CubeSat - INFO - Sequence 18 already exists, skipping
+2025-08-30 22:44:51,089 - CubeSat - INFO - Telemetry packet #18 sent with 27 fields
+2025-08-30 22:44:53,807 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:54,451 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:54,656 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:54,816 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:55,479 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:44:56,135 - CubeSat - INFO - Sequence 19 already exists, skipping
+2025-08-30 22:44:56,137 - CubeSat - INFO - Telemetry packet #19 sent with 27 fields
+2025-08-30 22:44:57,744 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:44:58,655 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:00,348 - CubeSat - INFO - Active fields: 30, Sequence: #20
+2025-08-30 22:45:00,836 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:01,142 - CubeSat - INFO - Sequence 20 already exists, skipping
+2025-08-30 22:45:01,143 - CubeSat - INFO - Telemetry packet #20 sent with 27 fields
+2025-08-30 22:45:01,343 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:01,754 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:03,810 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:04,504 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:05,122 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:05,404 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:45:06,220 - CubeSat - INFO - Sequence 21 already exists, skipping
+2025-08-30 22:45:06,228 - CubeSat - INFO - Telemetry packet #21 sent with 27 fields
+2025-08-30 22:45:06,722 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:09,852 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:10,352 - CubeSat - INFO - Active fields: 30, Sequence: #22
+2025-08-30 22:45:10,409 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:45:10,660 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:11,279 - CubeSat - INFO - Sequence 22 already exists, skipping
+2025-08-30 22:45:11,279 - CubeSat - INFO - Telemetry packet #22 sent with 27 fields
+2025-08-30 22:45:11,479 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:11,682 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:13,800 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:14,003 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:14,105 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:15,439 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 22:45:15,443 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 22:45:15,617 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:16,325 - CubeSat - INFO - Sequence 23 already exists, skipping
+2025-08-30 22:45:16,325 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:16,326 - CubeSat - INFO - Telemetry packet #23 sent with 27 fields
+2025-08-30 22:45:17,368 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 22:45:17,370 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 22:45:17,935 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:18,162 - CubeSat - INFO - HTTP GET request: /
+2025-08-30 22:45:18,165 - CubeSat - INFO - HTTP "GET / HTTP/1.1" 200 -
+2025-08-30 22:45:18,362 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 22:45:18,643 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:19,045 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:19,146 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:19,248 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:19,349 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:20,356 - CubeSat - INFO - Active fields: 30, Sequence: #24
+2025-08-30 22:45:21,362 - CubeSat - INFO - Sequence 24 already exists, skipping
+2025-08-30 22:45:21,363 - CubeSat - INFO - Telemetry packet #24 sent with 27 fields
+2025-08-30 22:45:22,166 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:22,571 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:24,365 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 22:45:26,373 - CubeSat - INFO - Sequence 25 already exists, skipping
+2025-08-30 22:45:26,375 - CubeSat - INFO - Telemetry packet #25 sent with 27 fields
+2025-08-30 22:45:26,492 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:27,310 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:27,399 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:27,719 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:27,921 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:29,228 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:29,325 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:29,403 - CubeSat - WARNING - bmp180 sensor failed to provide data
+2025-08-30 22:45:29,633 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:29,836 - CubeSat - WARNING - mpu6050 sensor failed to provide data
+2025-08-30 22:45:30,359 - CubeSat - INFO - Active fields: 30, Sequence: #26
+2025-08-30 22:45:30,370 - CubeSat - WARNING - dht22 sensor failed to provide data
+2025-08-30 22:45:30,835 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:31,426 - CubeSat - WARNING - gps sensor failed to provide data
+2025-08-30 22:45:31,443 - CubeSat - INFO - Sequence 26 already exists, skipping
+2025-08-30 22:45:31,444 - CubeSat - INFO - Telemetry packet #26 sent with 27 fields
+2025-08-30 22:45:32,150 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:33,762 - CubeSat - WARNING - lsm303 sensor failed to provide data
+2025-08-30 22:45:34,329 - CubeSat - INFO - 
+Shutdown requested by user
+2025-08-30 22:45:34,329 - CubeSat - INFO - Shutdown complete
+2025-08-31 17:53:11,737 - CubeSat - INFO - Using SQLite database (fallback)
+2025-08-31 17:53:11,748 - CubeSat - INFO - SQLite database initialized successfully
+2025-08-31 17:53:11,749 - CubeSat - INFO - Initialized with 6 sensors: ['dht22', 'bme280', 'bmp180', 'lsm303', 'mpu6050', 'gps']
+2025-08-31 17:53:11,821 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:11,861 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:11,883 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:11,892 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:11,894 - CubeSat - INFO - Starting dht22 sensor thread (interval: 3.0s)
+2025-08-31 17:53:11,897 - CubeSat - INFO - Starting bme280 sensor thread (interval: 2.0s)
+2025-08-31 17:53:11,902 - CubeSat - INFO - Starting bmp180 sensor thread (interval: 2.5s)
+2025-08-31 17:53:11,913 - CubeSat - INFO - Starting lsm303 sensor thread (interval: 0.1s)
+2025-08-31 17:53:11,921 - CubeSat - INFO - Starting mpu6050 sensor thread (interval: 0.1s)
+2025-08-31 17:53:11,934 - CubeSat - INFO - Starting gps sensor thread (interval: 1.0s)
+2025-08-31 17:53:11,940 - CubeSat - INFO - Starting main data processor thread
+2025-08-31 17:53:11,946 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:11,982 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:11,984 - CubeSat - INFO - ============================================================
+2025-08-31 17:53:14,443 - CubeSat - WARNING - MPU6050 sensor failure simulated
+2025-08-31 17:53:15,968 - CubeSat - WARNING - MPU6050 sensor failure simulated
+2025-08-31 17:53:16,855 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:16,962 - CubeSat - INFO - Sequence 1 already exists
+2025-08-31 17:53:18,491 - CubeSat - WARNING - MPU6050 sensor failure simulated
+2025-08-31 17:53:18,977 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:20,416 - CubeSat - WARNING - MPU6050 sensor failure simulated
+2025-08-31 17:53:22,005 - CubeSat - INFO - Sequence 2 already exists
+2025-08-31 17:53:26,246 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:26,852 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:27,057 - CubeSat - INFO - Sequence 3 already exists
+2025-08-31 17:53:28,267 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:32,106 - CubeSat - INFO - Sequence 4 already exists
+2025-08-31 17:53:33,918 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:35,433 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:37,155 - CubeSat - INFO - Sequence 5 already exists
+2025-08-31 17:53:39,010 - CubeSat - WARNING - MPU6050 sensor failure simulated
+2025-08-31 17:53:39,172 - CubeSat - WARNING - LSM303 sensor failure simulated
+2025-08-31 17:53:40,727 - CubeSat - WARNING - MPU6050 sensor failure simulated
+2025-08-31 17:53:42,200 - CubeSat - INFO - Sequence 6 already exists

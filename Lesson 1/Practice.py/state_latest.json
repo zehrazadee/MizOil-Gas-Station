@@ -1,0 +1,130 @@
+{
+  "sequenceNumber": {
+    "value": 1,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "sentAt": {
+    "value": "2025-08-19T10:00:00",
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "schemaVersion": {
+    "value": "v1.0",
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "temperatureC_dht22": {
+    "value": 25.3,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "humidityPercent_dht22": {
+    "value": 60.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "pressurePa_bmp180": {
+    "value": 101325.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "altitudeM_bmp180": {
+    "value": 150.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "altitudeM_gps": {
+    "value": 152.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelX_lsm303": {
+    "value": 0.01,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelY_lsm303": {
+    "value": 0.02,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelZ_lsm303": {
+    "value": 0.98,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelX_mpu6050": {
+    "value": 0.02,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelY_mpu6050": {
+    "value": 0.01,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelZ_mpu6050": {
+    "value": 0.97,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "magX_lsm303": {
+    "value": 30.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "magY_lsm303": {
+    "value": 45.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "magZ_lsm303": {
+    "value": 50.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gyroX_mpu6050": {
+    "value": 0.1,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gyroY_mpu6050": {
+    "value": 0.2,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gyroZ_mpu6050": {
+    "value": 0.3,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsLatitude": {
+    "value": 40.4093,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsLongitude": {
+    "value": 49.8671,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsAltitudeM": {
+    "value": 150.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsSpeedKmh": {
+    "value": 0.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsUtcTime": {
+    "value": "2025-08-19T10:00:00",
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsSatellites": {
+    "value": 5,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "gpsHdop": {
+    "value": 0.8,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "receivedAt": {
+    "value": "2025-08-19T10:27:52.549694",
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "altitudeM_avg": {
+    "value": 151.0,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelX_avg": {
+    "value": 0.015,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelY_avg": {
+    "value": 0.015,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  },
+  "accelZ_avg": {
+    "value": 0.975,
+    "updatedAt": "2025-08-19T10:27:52.549694"
+  }
+}
