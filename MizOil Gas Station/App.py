@@ -131,13 +131,11 @@ class CafeSection:
         entry = self.cafe_entries[item]
         
         if self.cafe_vars[item].get() == 1:
-            # Seçildi - entry-ni aktivləşdir və boş qoy
             entry.config(state="normal")
-            self.cafe_entry_vars[item].set("")  # Boş et ki, istifadəçi özü yazsın
+            self.cafe_entry_vars[item].set("")
         else:
-            # Seçim ləğv edildi - entry-ni deaktivləşdir və boş qoy
             entry.config(state="disabled")
-            self.cafe_entry_vars[item].set("")  # Boş qoy
+            self.cafe_entry_vars[item].set("")
             
         self.update_total()
 
