@@ -45,56 +45,57 @@
 #Siyahını ortadan iki hissəyə bölür.
 #Hər hissəni ayrıca sıralayır.
 #Sonda ikisini birləşdirərək düz siyahı alır.
-def merge_sort(ededler):
-    if len(ededler) > 1:
-        mid = len(ededler) // 2
-        left = ededler[:mid]
-        right = ededler[mid:]
-        merge_sort(left)
-        merge_sort(right)
-        i = j = k = 0
-        while i < len(left) and j < len(right):
-            if left[i] < right[j]:
-                ededler[k] = left[i]
-                i += 1
-            else:
-                ededler[k] = right[j]
-                j += 1
-            k += 1
-        while i < len(left):
-            ededler[k] = left[i]
-            i += 1
-            k +=1
-        while j < len(right):
-            j += 1
-            k += 1
-    return ededler
-print(merge_sort([38, 27, 43, 3, 9, 82, 10]))
+# def merge_sort(ededler):
+#     if len(ededler) > 1:
+#         mid = len(ededler) // 2
+#         left = ededler[:mid]
+#         right = ededler[mid:]
+#         merge_sort(left)
+#         merge_sort(right)
+#         i = j = k = 0
+#         while i < len(left) and j < len(right):
+#             if left[i] < right[j]:
+#                 ededler[k] = left[i]
+#                 i += 1
+#             else:
+#                 ededler[k] = right[j]
+#                 j += 1
+#             k += 1
+#         while i < len(left):
+#             ededler[k] = left[i]
+#             i += 1
+#             k +=1
+#         while j < len(right):
+#             j += 1
+#             k += 1
+#     return ededler
+# print(merge_sort([38, 27, 43, 3, 9, 82, 10]))
 
 
-#Heap Sort:
+# #Heap Sort:
 
-#Əvvəlcə siyahını Max-Heap-a çeviririk → ən böyük element siyahının əvvəlində olur.
-#Ən böyüyü götürüb sona qoyuruq.
-#Qalan hissəni yenidən heap-ləyirik.
-#Bu prosesi bütün elementlər üçün təkrarlayırıq.
-def heapify(siyahi, n, i):
-    largest = i    #kök (root)
-    left = 2 * i + 1
-    right = 2 * i +2
-    if left < n and siyahi[left] > siyahi[largest]:
-        largest = left
-    if right < n and siyahi[right] > siyahi[largest]:
-        largest = right
-    if largest != i:
-        siyahi[i], siyahi[largest] = siyahi[largest], siyahi[i]
-        heapify(siyahi, n, largest)
-def heap_sort(siyahi):
-    n = len(siyahi)
-    for i in range(n // 2 - 1, -1, -1):
-        heapify(siyahi, n, i)
-    for i in range(n - 1, 0, -1):
-        siyahi[i], siyahi[0] = siyahi[0], siyahi[i]
-        heapify(siyahi, i, 0)
-    return siyahi
-print(heap_sort([4, 10, 3, 5, 1]))
+# #Əvvəlcə siyahını Max-Heap-a çeviririk → ən böyük element siyahının əvvəlində olur.
+# #Ən böyüyü götürüb sona qoyuruq.
+# #Qalan hissəni yenidən heap-ləyirik.
+# #Bu prosesi bütün elementlər üçün təkrarlayırıq.
+# def heapify(siyahi, n, i):
+#     largest = i    #kök (root)
+#     left = 2 * i + 1
+#     right = 2 * i +2
+#     if left < n and siyahi[left] > siyahi[largest]:
+#         largest = left
+#     if right < n and siyahi[right] > siyahi[largest]:
+#         largest = right
+#     if largest != i:
+#         siyahi[i], siyahi[largest] = siyahi[largest], siyahi[i]
+#         heapify(siyahi, n, largest)
+# def heap_sort(siyahi):
+#     n = len(siyahi)
+#     for i in range(n // 2 - 1, -1, -1):
+#         heapify(siyahi, n, i)
+#     for i in range(n - 1, 0, -1):
+#         siyahi[i], siyahi[0] = siyahi[0], siyahi[i]
+#         heapify(siyahi, i, 0)
+#     return siyahi
+# print(heap_sort([4, 10, 3, 5, 1]))
+from tkinter import messagebox
